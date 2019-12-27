@@ -1,4 +1,4 @@
-class AddColumnToStudnets < ActiveRecord::Migration
+class AddColumnToStudents < ActiveRecord::Migration
   def change
     add_column :students, :active, :boolean  
   end
