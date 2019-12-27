@@ -8,6 +8,10 @@ class StudentsController < ApplicationController
   def show
   end
 
+  def activate 
+    @student.save if @student.active 
+  end 
+
   private
 
     def set_student
